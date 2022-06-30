@@ -1,0 +1,31 @@
+#form1 {
+  padding-top: 50px;
+}
+
+.box {
+   display: flex;
+}
+
+.input-form {
+  width: 100%;
+  margin: 0 auto;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.input-form:focus {
+  outline: none;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox > label {
+  text-align: left;
+}
+
+.text-area {
+  height: 200px;
+}
